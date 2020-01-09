@@ -1,0 +1,23 @@
+default:
+  GGPLOT_OUTPUT_DIR: output/R_plots
+  OUTPUT_DIR: output
+  NOAA_URL: https://eogdata.mines.edu/pages/download_dnb_composites_iframe.html
+  DATA_DIR: data
+  TGZ_DIR: tar
+  GDP_DIR: GDP
+  GDP_CSV: nama_10r_3gdp_1_Data.csv
+  TIFFS_DIR: tiffs_greece
+  STACKS_DIR: stacks
+  GASFLARE_DIR: gas_flares
+  VECTOR_DIR: vector
+  R_DIR: R
+  LIST_VECTOR_PATTERN: "^NUTS_RG_01M_2016_4326_LEVL_*.*gpkg$"
+  LIST_RASTER_PATTERN: "^SVDNB_npp_201*.*avg_rade9h_2100.tif$"
+  DNB_STACK: dnb_stack.grd
+  EXTENT:
+      X_MIN: 104010
+      Y_MIN: 3850806
+      X_MAX: 1008010
+      Y_MAX: 4623806
+      RESOLUTION: 1000
+  DHMOI: data/vector/oria_kapodistriakwn_dhmwn.gpkg
